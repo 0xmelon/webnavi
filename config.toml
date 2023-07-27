@@ -34,8 +34,8 @@ publishDir            = "public"					# 站点静态文件保存目录
 
 [params.images]
     favicon           = "https://cdn.staticaly.com/gh/Dreamin121/picgohub@master/xmelon.webp"
-    searchImageL      = "assets/images/bg-dna.jpg"		# 搜索部分浅色背景图
-    searchImageD      = "assets/images/bg-dna.jpg"		# 搜索部分深色背景图
+    searchImageL      = "https://cdn.staticaly.com/gh/Dreamin121/picgohub@master/imgs/01598e5db26aa4a801209e1f4c7784.gif"		# 搜索部分浅色背景图
+    searchImageD      = "https://cdn.staticaly.com/gh/Dreamin121/picgohub@master/imgs/01598e5db26aa4a801209e1f4c7784.gif"		# 搜索部分深色背景图
     logoExpandLight   = "https://cdn.staticaly.com/gh/Dreamin121/picgohub@master/xmelon.webp"
     logoExpandDark    = "https://cdn.staticaly.com/gh/Dreamin121/picgohub@master/xmelon.webp"
     logoCollapseLight = "https://cdn.staticaly.com/gh/Dreamin121/picgohub@master/xmelon.webp"
