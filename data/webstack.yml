@@ -1,133 +1,369 @@
 ---
-
-- taxonomy: 常用推荐
-  icon: far fa-star
-  links: 
-    - title: 关注我们
-      logo: ""
-      url: https://bioitee.com
-      qrcode: assets/images/logos/qrcode.jpg
-      description: BioIT 爱好者！
-    - title: 语雀
-      logo: 语雀.jpg
-      url: https://www.yuque.com/
-      description: 专业的云端知识库。
-    - title: QQ 邮箱
-      logo: qq邮箱.png
-      url: http://mail.qq.com/
-      description: 腾讯 QQ 邮箱。
-    - title: 开源中国
-      logo: 开源中国.jpg
-      url: https://www.oschina.net/
-      description: 中文开源技术交流社区。
-    - title: 公众号平台
-      logo: 微信公众号.png
-      url: https://mp.weixin.qq.com/
-      description: 再小的个体也有自己的品牌。
-    - title: CODING
-      logo: coding.png
-      url: https://shenweiyan.coding.net/user/projects
-      description: 个人 CODING 代码托管。
-    - title: GitHub
-      logo: github.jpg
-      url: https://github.com/
-      description: GitHub 开源社区。
-    - title: Md2X 定制版
-      logo: mdx.png
-      url: https://mdx.ncbix.com/
-      description: Markdown 排版利器，Md2All 定制版。
-    - title: 搜狗微信
-      logo: 搜狗微信.jpg
-      url: https://weixin.sogou.com/
-      description: 搜狗微信搜索，一搜即达。
-    - title: 知乎
-      logo: 知乎.png
-      url: https://www.zhihu.com/
-      description: 知乎社区。
-    - title: V2EX
-      logo: v2ex.jpg
-      url: https://www.v2ex.com/
-      description: V2EX 创意工作者的社区。
-    - title: 语雀话题
-      logo: 语雀话题.png
-      url: https://www.yuque.com/shenweiyan/wow
-      description: 好看的皮囊千篇一律，有趣的灵魂万里挑一！
-
-
-- taxonomy: 科研办公
-  icon: fas fa-flask fa-lg
+- taxonomy: code
+  icon: fa fa-check
   list:
-    - term: 生物信息
-      links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
-        - title: Bioconda
-          logo: bioconda.jpg
-          url: https://anaconda.org/bioconda/
-          description: "Bioconda :: Anaconda.org."
-        - title: CPAN
-          logo: cpan.jpg
-          url: https://metacpan.org/
-          description: Search the CPAN.
-        - title: Gitter Galaxy
-          logo: gitter.jpg
-          url: https://gitter.im/galaxyproject
-          description: Galaxy Gitter Community.
-        - title: R Project
-          logo: r-project.jpg
-          url: https://www.r-project.org/
-          description: https://www.r-project.org
-        - title: Bioconductor
-          logo: bioconductor.jpg
-          url: http://www.bioconductor.org/
-          description: http://www.bioconductor.org
+    - term: 代码托管  
+      links: 
+        - title: Github
+          logo: https://github.com/apple-touch-icon.png
+          url: https://github.com/
+          description: 全球最大同性交友网站 你懂的~
+        - title: 码云
+          logo: https://gitee.com/favicon.ico
+          url: https://gitee.com/
+          description: 基于 Git 的代码托管和研发协作平台。
     - term: 云服务器
-      links:
+      links: 
         - title: 阿里云
-          logo: 阿里云.jpg
+          logo: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
           url: https://www.aliyun.com/
-          description: 上云就上阿里云。
+          description: 阿里云——提供免费试用、云服务器、云数据库、云安全、云企业应用等云计算服务，以及大数据、人工智能服务、精准定制基于场景的行业解决方案。
         - title: 腾讯云
-          logo: 腾讯云.jpg
+          logo: https://cloud.tencent.com/favicon.ico
           url: https://cloud.tencent.com/
-          description: 产业智变，云启未来。
-        - title: 华为云
-          logo: 华为云.png
-          url: https://www.huaweicloud.com/
-          description: 提供云计算服务+智能，见未来-华为云。
-        - title: 云筏科技
-          logo: ''
-          url: https://my.cloudraft.cn/
-          description: 云筏 - 科研云。
-        - title: 极云普惠云电脑
-          logo: 极云普惠云电脑.png
-          url: https://www.ji-cloud.cn/
-          description: 云电脑-云游戏-手机变电脑软件。
-        - title: 青椒云
-          logo: 青椒云.jpg
-          url: https://www.qingjiaocloud.com/
-          description: 云桌面,一站式云电脑服务平台。
-    - term: 办公学习
+          description: 腾讯云为数百万的企业和开发者提供安全稳定的云计算服务，涵盖云服务器、云数据库、云存储、视频与CDN、域名注册等全方位云服务和各行业解决方案。
+        - title: 七牛云
+          logo: https://qiniu.staticfile.org/favicon.ico
+          url: https://www.qiniu.com/
+          description: 七牛云致力于成为全球领先的一站式场景化智能视频云服务商，围绕数字化浪潮下的在线音视频需求，基于强大的云边一体化能力和低代码能力，持续在视频点播、互动直播、实时音视频、摄像头上云等领域，进行深度技术投入，提供面向业务场景的视频云解决方案。
+    - term: 开源镜像
+      links: 
+        - title: 华为云开源镜像站
+          logo: https://devcloud-res.hc-cdn.com/MirrorPortal-CDN/10.49.1/hws/favicon.ico
+          url: https://mirrors.huaweicloud.com/home
+          description: 提供主流开发语言组件、操作系统、常用工具和库等镜像
+        - title: 腾讯软件源
+          logo: https://nav.cmsblogs.cn/wp-content/uploads/2023/03/cloud-tencent.ico
+          url: https://mirrors.cloud.tencent.com/
+          description: 腾讯云提供的镜像站
+        - title: 阿里巴巴开源镜像站
+          logo: https://developer.aliyun.com/favicon.ico
+          url: https://developer.aliyun.com/mirror/
+          description: 提供极速全面稳定的系统镜像服务
+        - title: 网易开源镜像站
+          logo: https://mirrors.163.com/.media/favicon.ico
+          url: https://mirrors.163.com/
+          description: 网易提供的镜像站 
+        - title: 清华大学开源软件镜像站
+          logo: https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png
+          url: https://mirrors.tuna.tsinghua.edu.cn/
+          description: 致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务
+        - title: 北京交通大学镜像站
+          logo: https://mirror.bjtu.edu.cn/favicon.ico
+          url: https://mirror.bjtu.edu.cn/
+          description: 北京交通大学自由与开源软件镜像站
+        - title: 浙江大学开源软件镜像站
+          logo: https://mirrors.zju.edu.cn/index/icons/icon-512x512.png?v=f28569028f33e6ac676201f84c9d61bf
+          url: https://mirrors.zju.edu.cn/
+          description: 浙江大学开源软件镜像站
+        - title: 中国科学技术大学镜像站
+          logo: https://mirrors.ustc.edu.cn/static/img/favicon.png
+          url: https://mirrors.ustc.edu.cn/
+          description: 提供各大主流 Linux 发行版的安装镜像
+        - title: 兰州大学开源社区镜像站
+          logo: https://mirror.lzu.edu.cn/assets/img/favicon.ico
+          url: https://mirror.lzu.edu.cn/
+          description: 兰州大学开源社区镜像站
+        - title: 阿里云云效 Maven
+          logo: https://developer.aliyun.com/favicon.ico
+          url: https://developer.aliyun.com/mvn/guide
+          description: 阿里云云效Maven
+    - term: 微服务框架
       links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-        - title: 有道翻译
-          logo: 有道词典.png
-          url: http://fanyi.youdao.com/
-          description: 有道翻译。
-        - title: 谷歌翻译
-          logo: 谷歌翻译.jpg
-          url: https://translate.google.cn/
-          description: 谷歌翻译。
-        - title: ProcessOn
-          logo: ProcessOn.png
+        - title: go-zero
+          logo: https://go-zero.dev/img/meta/favicon.ico
+          url: https://go-zero.dev/cn/
+          description: go-zero 是一个集成了各种工程实践的 web 和 rpc 框架。通过弹性设计保障了大并发服务端的稳定性，经受了充分的实战检验。
+        - title: Kratos
+          logo: https://go-kratos.dev/img/favicon.ico
+          url: https://go-kratos.dev/
+          description: Kratos 是 bilibili 开源的一套轻量级 Go 微服务框架,包含大量微服务相关功能及工具。
+
+- taxonomy: study
+  icon: far fa-book
+  list:
+    - term: 博客站点
+      links: 
+        - title: Go 夜读
+          logo: https://talkgo.org/uploads/default/optimized/1X/770cbaabb50cad2b53dd446e346ce59f2121c395_2_180x180.png
+          url: https://talkgo.org/
+          description: 让每个想要学习的人都能参与进来。
+        - title: 煎鱼
+          logo: https://eddycjy.com/favicon.ico
+          url: https://eddycjy.com/
+          description: 煎鱼,博客,go,golang,源码分析,系列教程
+        - title: 代码随想录
+          logo: https://s2.loli.net/2023/04/21/XT34AsZulodYQ9t.png
+          url: https://programmercarl.com/
+          description: 本站是一套完整的刷题计划，旨在帮助大家少走弯路，循序渐进学算法。
+        - title: Golang博客-刘丹冰Aceld
+          logo: https://www.yuque.com/favicon.ico?origin_url=%2Faceld
+          url: https://www.yuque.com/aceld
+          description: 《Golang修养之路》作者
+        - title: qcrao的博客
+          logo: https://qcrao.com/favicon.ico
+          url: https://qcrao.com/
+          description: 专注于 Go 语言(golang)、后端架构、个人成长
+        - title: 面向信仰编程
+          logo: https://draveness.me/favicon.ico
+          url: https://draveness.me/
+          description: Draveness 老师个人技术博客
+        - title: 编程词典
+          logo: http://dict.code-nav.cn/logo.svg
+          url: http://dict.code-nav.cn/
+          description: 计算机编程领域专业术语大全
+        - title: GOLANG ROADMAP
+          logo: https://www.golangroadmap.com/favicon.ico
+          url: https://www.golangroadmap.com/
+          description: 专注Gopher学习求职之路
+
+    - term: 书籍文档
+      links: 
+        - title: 书栈网
+          logo: https://www.bookstack.cn/favicon.ico
+          url: https://www.bookstack.cn/
+          description: 书栈网，BookStack，既是一个开源书籍和文档分享站点，也是一套使用Go语言开发的开源程序，助您更好地实现文档阅读管理。
+
+        - title: 码农之家
+          logo: https://www.xz577.com/favicon.ico
+          url: https://www.xz577.com/
+          description: 码农之家为程序员朋友们提供计算机电子书资源免费下载，打造成编程电子书的专业网站，精选计算机pdf电子书内容并推荐有价值的视频教程内容，为大家学习编程和计算机知识节省成本。
+
+        - title: 在线学习代码重构、设计模式
+          logo: https://refactoringguru.cn/favicon.png
+          url: https://refactoringguru.cn/
+          description: 帮助你先从整体了解各种代码重构技巧和设计模式， 学习它们之间如何交叉、合作和关联。
+
+        - title: 数据结构和算法（Golang实现）
+          logo: https://hunterhug.gitlab.io/goa.c/picture/b.jpeg
+          url: https://hunterhug.gitlab.io/goa.c/#/
+          description: 数据结构和算法（Golang实现）
+
+        - title: Go语言中文文档
+          logo: https://www.topgoer.com/gitbook/images/apple-touch-icon-precomposed-152.png
+          url: https://www.topgoer.com/
+          description: Go资源、开源项目
+
+        - title: Go 语言设计与实现
+          logo: https://draveness.me/favicon.ico
+          url: https://draveness.me/golang/
+          description: 主要内容可以分成四个主要部分，分别是编译原理、运行时、基础知识和进阶知识
+
+        - title: Go 语言原本
+          logo: https://cdn.ch3nnn.cn/img202304171058461.png
+          url: https://golang.design/under-the-hood/
+          description: 欧神开源书《Go 语言原本》
+
+        - title: Go语言101
+          logo: https://gfw.go101.org/static/go101/images/iphone-v1.jpeg
+          url: https://gfw.go101.org/
+          description: 《Go语言101》是一本着墨于Go语法语义（除了自定义泛型）以及运行时相关知识点的编程指导书
+
+        - title: 《Go语言圣经》
+          logo: https://golang-china.github.io/favicon.png
+          url: https://golang-china.github.io/gopl-zh/index.html
+          description: Go语言圣经 《The Go Programming Language》 中文版本，仅供学习交流之用。
+
+        - title: Go专家编程
+          logo: /upload/go%e4%b8%93%e5%ae%b6%e7%bc%96%e7%a8%8b.jpg
+          url: https://books.studygolang.com/GoExpertProgramming/
+          description: 常见数据结构、控制结构、标准库的实现原理剖析
+    - term: 在线游戏
+      links: 
+        - title: 我的世界
+          logo: https://nav.cmsblogs.cn/wp-content/uploads/2023/03/minecraft.ico
+          url: https://classic.minecraft.net/
+          description: 我的世界在线版
+
+- taxonomy: 技术社区
+  icon: far fa-map
+  links: 
+    - title: CSDN博客
+      logo: https://www.csdn.net/favicon.ico
+      url: https://www.csdn.net/
+      description: CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区.
+    - title: OSCHINA开源中国
+      logo: https://static.oschina.net/new-osc/img/favicon.ico
+      url: https://www.oschina.net/
+      description: OSCHINA 为中国开发者提供了最新开源资讯、软件更新资讯、技术分享和交流的技术平台。
+    - title: 简书
+      logo: https://www.jianshu.com/favicon.ico
+      url: https://www.jianshu.com/
+      description: 简书是一个优质的创作社区，在这里，你可以任性地进行创作，一篇短文、一张照片、一首诗、一幅画…我们相信，每个人都是生活中的艺术家，有着无穷的创造力。
+    - title: 稀土掘金
+      logo: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png
+      url: https://juejin.cn/
+      description: 一个帮助开发者成长的社区
+    - title: 博客园
+      logo: https://www.cnblogs.com/favicon.ico
+      url: https://www.cnblogs.com/
+      description: 开发者的网上家园
+    - title: SF思否
+      logo: https://static.segmentfault.com/main_site_next/c9aa1097/favicon.ico
+      url: https://segmentfault.com/
+      description: 一个开放的技术社区
+    - title: Stack Overflow
+      logo: https://stackoverflow.com/apple-touch-icon.png
+      url: https://stackoverflow.com/
+      description: Stack Overflow 大部分编程问题都能在这里找到答案
+    - title: Golang中文社区
+      logo: https://studygolang.com/favicon.ico
+      url: https://studygolang.com/
+      description: 成为国内权威的 Go 语言社区，国内 Go 语言爱好者的聚集地
+    - title: LearnKu社区
+      logo: https://learnku.com/favicon.ico
+      url: https://learnku.com/
+      description: LearnKu 是终身编程者的修道场 做最专业、严肃的技术论坛
+    - title: Gophers - Awesome Go / Golang
+      logo: https://awesome-go.com/assets/logo.png
+      url: https://awesome-go.com/
+      description: 精选了一系列很棒的 Go / Golang框架、库和软件
+
+- taxonomy: 应用资源
+  icon: far fa-suitcase
+  list:
+    - term: 前端CDN 
+      links: 
+      - title: BootCDN
+        logo: https://www.bootcdn.cn/assets/ico/apple-touch-icon-144-precomposed.png?1677946577572
+        url: https://www.bootcdn.cn/
+        description: 稳定、快速、免费的前端开源项目 CDN 加速服务
+      - title: jsDelivr
+        logo: /upload/jsdelivr.png
+        url: https://www.jsdelivr.com/
+        description: jsDelivr 是用于开源文件的免费 CDN（内容分发网络）
+      - title: Staticfile CDN
+        logo: http://www.staticfile.org/assets/images/logo.png
+        url: http://www.staticfile.org/
+        description: 七牛云提供前端CDN存储和加速赞助
+
+    - term: 图标素材
+      links: 
+        - title: lineicons
+          logo: https://lineicons.com/favicon.png
+          url: https://lineicons.com/icons/
+          description: Lineicons 是一个庞大而全面的专业设计图标包，提供所有矢量格式，易于在网络、设计、编码等方面使用。
+        - title: iconfont-阿里巴巴矢量图标库
+          logo: https://www.iconfont.cn/apple-touch-icon-precomposed.png
+          url: https://www.iconfont.cn/
+          description: iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。
+        - title: Font Awesome
+          logo: https://fontawesome.com/images/favicon/apple-touch-icon.png
+          url: https://fontawesome.com/
+          description: Font Awesome 是互联网的图标库和工具包，被数百万设计师、开发人员和内容创作者使用。
+
+    - term: 网盘资源
+      links: 
+        - title: 百度网盘
+          logo: https://nd-static.bdstatic.com/h5-static/h5-base/images/favicon.ico
+          url: https://pan.baidu.com/
+          description: 百度网盘为您提供文件的网络备份、同步和分享服务。空间大、速度快、安全稳固，支持教育网加速，支持手机端。
+        - title: 阿里云盘
+          logo: https://img.alicdn.com/imgextra/i2/O1CN01DOYcs71v3B6bOemVM_!!6000000006116-2-tps-512-512.png
+          url: https://www.aliyundrive.com/
+          description: 阿里云盘是阿里巴巴全球技术团队打造的一款个人网盘，有下载不限速、不打扰、够安全、易于分享等特点，是一款为PC端用户提供云端存储、数据备份及智能相册等服务的网盘产品。
+
+    - term: Mac应用
+      links: 
+        - title: xclient-精品MAC应用
+          logo: https://img.xclient.info/icon/favicon.ico
+          url: https://xclient.info/
+          description: 精品MAC应用分享，每天分享大量mac软件，为您提供优质的mac软件,免费软件下载服务
+        - title: 麦氪搜 iMacSO.com
+          logo: https://www.imacso.com/static/favicon.ico
+          url: https://www.imacso.com/
+          description: 我们致力于让您的Mac更有价值！
+    - term: 图床
+      links: 
+        - title: SM.MS
+          logo: https://smms.app/apple-touch-icon.png
+          url: https://smms.app/
+          description: SM.MS - 简单的免费图片托管
+
+    - term: 字体库
+      links: 
+        - title: Free Fonts
+          logo: https://www.fontspace.com/android-chrome-192x192.png?v=00Bdv4Q5g6
+          url: https://www.fontspace.com/
+          description: 免费下载合法授权的字体，非常适合您的设计项目。宇宙中搜索神奇字体的最佳地点。
+
+- taxonomy: 常用工具
+  icon: far fa-tool
+  list:
+    - term: Markdown编辑器
+      links: 
+        - title: 微信 Markdown 编辑器
+          logo: https://md.openwrite.cn/assets/images/favicon.png
+          url: https://md.openwrite.cn/
+          description: 一款高度简洁的微信 Markdown 编辑器
+        - title: 语雀
+          logo: https://www.yuque.com/favicon.ico?origin_url=%2F
+          url: https://www.yuque.com/
+          description: 语雀，是蚂蚁集团旗下的在线文档编辑与协同工具。
+        - title: 石墨文档
+          logo: https://as.smgv.cn/from_qbox/favicon.ico
+          url: https://shimo.im/
+          description: 致力于通过 Office 上云的方式帮助企业和组织，提高基础办公效率，具有全员高效协同、数据安全管控、系统集成定制、轻型应用搭建等价值。
+        - title: 腾讯文档
+          logo: https://docs.idqqimg.com/tim/docs/desktop/favicon.ico
+          url: https://docs.qq.com/
+          description: 腾讯文档是一款可多人同时编辑的在线文档。
+        - title: 在线markdown编辑器
+          logo: https://markdown.com.cn/editor/favicon.svg
+          url: https://markdown.com.cn/editor/
+          description: 微信公众号排版工具
+    - term: Chrome插件
+      links: 
+        - title: 收藏猫插件
+          logo: https://chrome.pictureknow.com/favicon.ico
+          url: https://chrome.pictureknow.com/
+          description: 收藏猫插件是一个Chrome插件收录及下载的网站,收录Chrome插件,国内最好用的插件下载网站
+        - title: Crx搜搜 - 一个牛X的扩展和应用商店
+          logo: https://www.crxsoso.com/apple-touch-icon.png
+          url: https://www.crxsoso.com/
+          description: Crx搜搜，又名扩展搜搜，可以一键搜索并下载 Chrome，Edge，Firefox，Opera 扩展程序 crx/xpi 安装包和 Microsoft Store 应用程序，并可以将插件安装到 Chrome浏览器，Edge浏览器，QQ浏览器，360浏览器，搜狗浏览器，火狐浏览器等 90&#43; 款浏览器中。解决无法直接访问 Chrome 应用商店的问题。
+
+    - term: 在线工具
+      links: 
+        - title: codelf
+          logo: https://unbug.github.io/codelf/images/codelf_logo.f4ae25bd.png
+          url: https://unbug.github.io/codelf/
+          description: 变量命名神器
+        - title: NGINX 配置
+          logo: https://www.digitalocean.com/_next/static/media/android-chrome-192x192.f09059d8.png
+          url: https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN
+          description: 配置高性能、安全、稳定的NGINX服务器的最简单方法。
+        - title: 在线工具 - 你的工具箱
+          logo: https://s2.loli.net/2023/04/21/OzLyRtogkHXMB8u.png
+          url: https://tool.lu/
+          description: 在线工具,开发人员工具,代码格式化、压缩、加密、解密,下载链接转换,json格式化,正则测试工具,favicon在线制作,字帖工具,中文简繁体转换,迅雷下载链接转换,进制转换,二维码,照片压缩,pdf合并
+        - title: 即时工具-致力打造即用即走型在线工具箱
+          logo: https://www.67tool.com/favicon.ico
+          url: https://www.67tool.com/
+          description: 致力开发即用即走型在线工具，无需客户端在线一键使用。拥有视频工具、音频工具、图片工具、 PDF工具、办公辅助、设计工具、文本工具、数字工具、加密工具、单位转换等等工具。同时拥有良好的用户体验，为您的工作学习提升效率！
+        - title: Better Go Playground
+          logo: https://goplay.tools/logo192.png
+          url: https://goplay.tools/
+          description: 更好的Go Playground与语法高亮显示支持
+        - title: Linux 命令搜索引擎
+          logo: https://wangchujiang.com/linux-command/img/favicon.ico
+          url: https://wangchujiang.com/linux-command/
+          description: Linux命令搜索引擎:最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。 - 最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。
+        - title: Learn Git Branching
+          logo: https://codechina_dev.gitcode.host/learn-git-branching/assets/favicon.ico
+          url: https://codechina_dev.gitcode.host/learn-git-branching/?locale=zh_CN
+          description: 在线学习 Git
+        - title: ProcessOn-在线画思维导图流程图
+          logo: https://www.processon.com/favicon.ico
           url: https://www.processon.com/
-          description: 免费在线作图、实时协作。
-        
+          description: ProcessOn是一个在线协作绘图平台，支持在线制作思维导图、流程图、组织结构图、网络拓扑图、鱼骨图、UML图等，同时可实现人与人之间的实时协作和共享，提升团队工作效率。
+        - title: Gopherize.me
+          logo: /upload/Gopherize.me%20-%20A%20Gopher%20pic%20that%27s%20as%20unique%20as%20you.ico
+          url: https://gopherize.me/
+          description: 生成一张像你一样独特的go logo 地鼠照片
+
+
+
 
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
