@@ -1,8 +1,47 @@
 ---
+
 - taxonomy: 搬砖常用
-  icon: fa fa-check
+  icon: far fa-map
   list:
-    - term: 代码托管  
+    - term: 技术社区 
+      links: 
+        - title: Stack Overflow
+          logo: https://stackoverflow.com/apple-touch-icon.png
+          url: https://stackoverflow.com/
+          description: Stack Overflow 大部分编程问题都能在这里找到答案
+        - title: OSCHINA开源中国
+          logo: https://static.oschina.net/new-osc/img/favicon.ico
+          url: https://www.oschina.net/
+          description: OSCHINA 为中国开发者提供了最新开源资讯、软件更新资讯、技术分享和交流的技术平台。
+        - title: 简书
+          logo: https://www.jianshu.com/favicon.ico
+          url: https://www.jianshu.com/
+          description: 简书是一个优质的创作社区，在这里，你可以任性地进行创作，一篇短文、一张照片、一首诗、一幅画…我们相信，每个人都是生活中的艺术家，有着无穷的创造力。
+        - title: 稀土掘金
+          logo: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png
+          url: https://juejin.cn/
+          description: 一个帮助开发者成长的社区
+        - title: 博客园
+          logo: https://www.cnblogs.com/favicon.ico
+          url: https://www.cnblogs.com/
+          description: 开发者的网上家园
+        - title: SF思否
+          logo: https://static.segmentfault.com/main_site_next/c9aa1097/favicon.ico
+          url: https://segmentfault.com/
+          description: 一个开放的技术社区
+        - title: Golang中文社区
+          logo: https://studygolang.com/favicon.ico
+          url: https://studygolang.com/
+          description: 成为国内权威的 Go 语言社区，国内 Go 语言爱好者的聚集地
+        - title: LearnKu社区
+          logo: https://learnku.com/favicon.ico
+          url: https://learnku.com/
+          description: LearnKu 是终身编程者的修道场 做最专业、严肃的技术论坛
+        - title: Gophers - Awesome Go / Golang
+          logo: https://awesome-go.com/assets/logo.png
+          url: https://awesome-go.com/
+          description: 精选了一系列很棒的 Go / Golang框架、库和软件
+    - term: 代码服务  
       links: 
         - title: Github
           logo: https://github.com/apple-touch-icon.png
@@ -16,8 +55,6 @@
           logo: https://vercel.com/favicon.ico
           url: https://vercel.com/
           description: 边缘计算 虚拟主机 内容交付网络。
-    - term: 云服务器
-      links: 
         - title: 阿里云
           logo: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
           url: https://www.aliyun.com/
@@ -246,50 +283,6 @@
           logo: https://nav.cmsblogs.cn/wp-content/uploads/2023/03/minecraft.ico
           url: https://classic.minecraft.net/
           description: 我的世界在线版
-
-- taxonomy: 技术社区
-  icon: far fa-map
-  links: 
-    - title: CSDN博客
-      logo: https://www.csdn.net/favicon.ico
-      url: https://www.csdn.net/
-      description: CSDN是全球知名中文IT技术交流平台,创建于1999年,包含原创博客、精品问答、职业培训、技术论坛、资源下载等产品服务,提供原创、优质、完整内容的专业IT技术开发社区.
-    - title: OSCHINA开源中国
-      logo: https://static.oschina.net/new-osc/img/favicon.ico
-      url: https://www.oschina.net/
-      description: OSCHINA 为中国开发者提供了最新开源资讯、软件更新资讯、技术分享和交流的技术平台。
-    - title: 简书
-      logo: https://www.jianshu.com/favicon.ico
-      url: https://www.jianshu.com/
-      description: 简书是一个优质的创作社区，在这里，你可以任性地进行创作，一篇短文、一张照片、一首诗、一幅画…我们相信，每个人都是生活中的艺术家，有着无穷的创造力。
-    - title: 稀土掘金
-      logo: https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png
-      url: https://juejin.cn/
-      description: 一个帮助开发者成长的社区
-    - title: 博客园
-      logo: https://www.cnblogs.com/favicon.ico
-      url: https://www.cnblogs.com/
-      description: 开发者的网上家园
-    - title: SF思否
-      logo: https://static.segmentfault.com/main_site_next/c9aa1097/favicon.ico
-      url: https://segmentfault.com/
-      description: 一个开放的技术社区
-    - title: Stack Overflow
-      logo: https://stackoverflow.com/apple-touch-icon.png
-      url: https://stackoverflow.com/
-      description: Stack Overflow 大部分编程问题都能在这里找到答案
-    - title: Golang中文社区
-      logo: https://studygolang.com/favicon.ico
-      url: https://studygolang.com/
-      description: 成为国内权威的 Go 语言社区，国内 Go 语言爱好者的聚集地
-    - title: LearnKu社区
-      logo: https://learnku.com/favicon.ico
-      url: https://learnku.com/
-      description: LearnKu 是终身编程者的修道场 做最专业、严肃的技术论坛
-    - title: Gophers - Awesome Go / Golang
-      logo: https://awesome-go.com/assets/logo.png
-      url: https://awesome-go.com/
-      description: 精选了一系列很棒的 Go / Golang框架、库和软件
     
 
 - taxonomy: 常用工具
@@ -539,57 +532,6 @@
           logo: /upload/Gopherize.me%20-%20A%20Gopher%20pic%20that%27s%20as%20unique%20as%20you.ico
           url: https://gopherize.me/
           description: 生成一张像你一样独特的go logo 地鼠照片
-
-
-
-
-- taxonomy: 悠闲娱乐
-  icon: fas fa-film fa-lg
-  list:
-    - term: 影音视频
-      links:
-        - title: 腾讯视频
-          logo: 腾讯视频.png
-          url: http://v.qq.com/
-          description: 腾讯视频，海量视频在线观看。
-        - title: 优酷
-          logo: 优酷.png
-          url: http://www.youku.com/
-          description: 优酷 - 这个世界很酷。
-        - title: 爱奇艺
-          logo: 爱奇艺.png
-          url: https://www.iqiyi.com/
-          description: 爱奇艺在线视频。
-        - title: 哔哩哔哩
-          logo: 哔哩哔哩.png
-          url: https://www.bilibili.com/
-          description: Bilibili 视频弹幕网站。
-        - title: QQ 音乐
-          logo: QQ音乐.jpg
-          url: https://y.qq.com/
-          description: QQ 音乐，在线听歌。
-        - title: 网易云音乐
-          logo: 网易云音乐.jpg
-          url: https://music.163.com/
-          description: 163 网易云音乐。
-        - title: 电影天堂（DYTT8）
-          logo: 电影天堂.png
-          url: https://www.dytt8.net/index.htm
-          description: 电影天堂（DYTT8），高清电影下载。
-        - title: 电影天堂（DYGOD）
-          logo: 电影天堂.png
-          url: https://www.dygod.net/
-          description: 电影天堂（DYGOD），高清电影下载。
-    - term: 游戏竞技
-      links:
-        - title: 百度贴吧
-          logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
-          description: 百度贴吧。
-        - title: 台服战地
-          logo: 战地之王.png
-          url: https://ava.mangot5.com/ava/index
-          description: 台服 AVA 战地之王。
    
       
 - taxonomy: 素材资源
